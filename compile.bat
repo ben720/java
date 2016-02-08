@@ -1,2 +1,1 @@
-@echo off
-javac src/%1 -d bin
+javac src/%1.java -d bin

@@ -1,2 +1,3 @@
-@echo off
-java bin\%1
+cd bin
+java %1
+cd ..
