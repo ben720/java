@@ -1,3 +1,1 @@
-cd bin
-java %1
-cd ..
+java -cp bin %1

@@ -1,4 +1,4 @@
 @echo off
-CALL compile.bat %1
+CALL scripts\compile.bat %1
 echo Compilation finished. Trying to run...
-CALL run.bat %1
+CALL scripts\run.bat %1
