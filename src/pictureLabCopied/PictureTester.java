@@ -12,7 +12,7 @@ public class PictureTester
   /** Method to test zeroBlue */
   public static void testZeroBlue()
   {
-    Picture beach = new Picture("resources/images/pictureLabCopied/beach.jpg");
+    Picture beach = new Picture("resources/pictureLabCopied/beach.jpg");
     beach.explore();
     beach.zeroBlue();
     beach.explore();
@@ -21,7 +21,7 @@ public class PictureTester
   /** Method to test mirrorVertical */
   public static void testMirrorVertical()
   {
-    Picture caterpillar = new Picture("resources/images/pictureLabCopied/caterpillar.jpg");
+    Picture caterpillar = new Picture("resources/pictureLabCopied/caterpillar.jpg");
     caterpillar.explore();
     caterpillar.mirrorVertical();
     caterpillar.explore();
@@ -30,7 +30,7 @@ public class PictureTester
   /** Method to test mirrorTemple */
   public static void testMirrorTemple()
   {
-    Picture temple = new Picture("resources/images/pictureLabCopied/temple.jpg");
+    Picture temple = new Picture("resources/pictureLabCopied/temple.jpg");
     temple.explore();
     temple.mirrorTemple();
     temple.explore();
@@ -39,7 +39,7 @@ public class PictureTester
   /** Method to test the collage method */
   public static void testCollage()
   {
-    Picture canvas = new Picture("resources/images/pictureLabCopied/640x480.jpg");
+    Picture canvas = new Picture("resources/pictureLabCopied/640x480.jpg");
     canvas.createCollage();
     canvas.explore();
   }
@@ -47,7 +47,7 @@ public class PictureTester
   /** Method to test edgeDetection */
   public static void testEdgeDetection()
   {
-    Picture swan = new Picture("resources/images/pictureLabCopied/swan.jpg");
+    Picture swan = new Picture("resources/pictureLabCopied/swan.jpg");
     swan.edgeDetection(10);
     swan.explore();
   }

@@ -231,9 +231,9 @@ public class PictureExplorer implements MouseMotionListener, ActionListener, Mou
     // create the image icons for the buttons
 	Icon prevIcon=null, nextIcon=null;
 	try{
-		prevIcon = new ImageIcon(new File("./resources/images/pictureLabCopied/leftArrow.gif").toURI().toURL(), 
+		prevIcon = new ImageIcon(new File("./resources/pictureLabCopied/leftArrow.gif").toURI().toURL(), 
                                   "previous index");
-		nextIcon = new ImageIcon(new File("./resources/images/pictureLabCopied/rightArrow.gif").toURI().toURL(), 
+		nextIcon = new ImageIcon(new File("./resources/pictureLabCopied/rightArrow.gif").toURI().toURL(), 
                                   "next index");
 	}catch(MalformedURLException e){e.printStackTrace();}
     // create the arrow buttons
